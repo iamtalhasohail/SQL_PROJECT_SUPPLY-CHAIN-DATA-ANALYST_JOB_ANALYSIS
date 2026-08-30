@@ -200,7 +200,7 @@ ORDER BY salary_year_avg DESC;
   all were government/defense logistics titles (Falconwood, Federal Transit Administration,
   Tecolote Research x2).
 
-![Skills for Top Paying Roles](assets\query2_skills_top_jobs.png)
+![Skills for Top Paying Roles](assets/query2_skills_top_jobs.png)
 *Bar graph visualising the count of skills for the top 20 highest paying supply chain data analyst roles; Claude genereated this graph from my SQL query results.*
 
 ### 3. Most In-Demand Skills
@@ -270,7 +270,7 @@ LIMIT 10;
   reporting/communication deliverables, not just backend data work.
 - Full hierarchy: Excel → SQL → Tableau → Power BI → Python ≈ SAP → PowerPoint → Word → R → VBA.
 
-![Most In Demand Skills for All Supply Chain Analysts Postings](assets\query3_in_demand_skills.png)
+![Most In Demand Skills for All Supply Chain Analysts Postings](assets/query3_in_demand_skills.png)
 *Bar graph visualising the top 10 most in-demand skills across all qualifying supply chain data analyst postings; Claude generated this graph from my SQL query results.*
 
 ### 4. Top Skills Based on Salary
@@ -349,7 +349,7 @@ LIMIT 25;
 - *Caveat:* skills with n=5–7 (Alteryx, SAP, SQL Server) carry more uncertainty than
   higher-volume skills (SQL n=35, Excel n=59, Tableau n=29).
 
-![Skills by Salary](assets\query4_skills_by_salary.png)
+![Skills by Salary](assets/query4_skills_by_salary.png)
 *Bar graph visaulising average salary by skill (n>5 postings) for supply chain data analyst roles; Claude generated this graph from my SQL results.*
 
 ### 5. Most Optimal Skills to Learn
@@ -494,7 +494,7 @@ ORDER BY
   identical demand (9) and salary ($98,528) — treated as one skill (combined n=18) in analysis,
   not two.
 
-![Optimal Skills](assets\query5_optimal_skills.png)
+![Optimal Skills](assets/query5_optimal_skills.png)
 *Scatter plot visualising demand vs. average salary for each skill, highlighting the most optimal skills to learn for supply chain data analyst roles; Claude generated this graph from my SQL query results.*
 
 # What I Learned
